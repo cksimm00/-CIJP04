@@ -15,8 +15,10 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # copy env and set your key
-cp .env.example .env
-# then edit .env to set OPENAI_API_KEY
+open chatbot.env to edit the OPENAI_API_KEY with your secret key value
+# then edit chatbot.env to set OPENAI_API_KEY
+
+to retrieve OPENAI secret key, head to https://platform.openai.com/api-keys
 ```
 
 ## 2) Run the API
